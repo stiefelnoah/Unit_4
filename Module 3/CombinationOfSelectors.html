@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Combination of Selectors</title>
+		
+		<style>
+			section.red{
+				color:red;
+			}
+			h1, h2.blue{
+				color:blue;
+			}
+		
+		</style>
+	</head>
+	
+	<body>
+		<h1>This is an h1</h1>
+		<h2 class="blue">This is an h1</h2>
+		<h3>This is an h1</h3>
+		<section class="red">
+			<p>My paragraph in a section with the class red</p>
+		</section>
+		
+		<section>
+			<p>My paragraph in another section</p>
+		</section>
+		
+		<p class="red">Outside of any section</p>
+	</body>
+
+</html>
