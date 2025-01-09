@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Relational Selectors</title>
+		
+		<style>
+			section p{
+				color:red;
+			}
+			h1+p{
+				color:green;
+			}
+			section>p{
+				color:blue;
+			}
+			h1~p{
+				color:orange;
+			}
+		</style>
+	</head>
+	
+	<body>
+	<h1>This is my first h1</h1>
+	<p>my first paragraph</p>
+	<p>my second paragraph</p>
+	<h1>This is my second h1</h1>
+	<section>
+		<p>This is my paragraph in a section</p>
+	</section>
+	
+	<h1>this is another h1</h1>
+	<p>this is another paragraph</p>
+	<p>this is yet another paragraph</p>
+	
+	<section>
+		<p>This is my first section</p>
+	</section>
+	
+	<section>
+		<h1>This is my second section</h1>
+	</section>
+	
+	<section>
+		<p>This is my third section<p>
+	</section>
+	
+		<p>This is my paragraph outside the sections</p>
+	
+	</body>
+
+</html>
